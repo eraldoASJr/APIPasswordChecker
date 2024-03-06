@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "ProjPasswordCheck.Controllers.PasswordValidatorController",
+    "Method": "ValidatePassword",
+    "RelativePath": "PasswordValidator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjPasswordCheck.Controllers.ValidationResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
