@@ -8,7 +8,7 @@ Para executar o projeto localmente, siga estas etapas:
 - Clone este repositório para o seu ambiente local.
 - Navegue até o diretório do projeto usando o terminal ou prompt de comando.
 - Execute o comando dotnet run para compilar e executar o projeto. Se não der certo, execute pelo própria IDE.
-- Acesse a API usando o navegador e vá para https://localhost: port /swagger/index.html, onde "port" é a porta em que o servidor está sendo executado.
+- Acesse a API usando o 'Start' da IDE para dar inicio a API, aqui usei Visual Studio 2022.
 - Uma observação importante é que se você não possuir pacote 'Swashbuckle.AspNetCore', que é utilizado para integrar o Swagger à API ASP.NET Core, precisa ser instalado separadamente no projeto. Execute o seguinte comando no terminal:
 < Install-Package Swashbuckle.AspNetCore.Annotations> E 
 < Install-Package Swashbuckle.AspNetCore>
